@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>29B3A4DB-80CD-498F-A079-18F1CA7DD20C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0796CFDE-8B84-4EAD-A82D-6558AF6C4D42</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3583F53B-BF45-48ED-8D46-09218DF80005</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0796CFDE-8B84-4EAD-A82D-6558AF6C4D42</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3D9E86C3-15F0-4B5E-AC66-0BA4B3524F7C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>668DA4EF-DE20-47A9-8A11-38A1002E1C2A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5ADBB309-EC74-453A-B7F5-9E34E2CDB7E3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>668DA4EF-DE20-47A9-8A11-38A1002E1C2A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>76C3031F-7B85-45C6-9D05-DF5802BBC167</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3E2AE83C-BAFA-4EB9-ADCB-0BB7989CF9E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B768A804-C61E-4133-AB9C-74C6448BFC62</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3E2AE83C-BAFA-4EB9-ADCB-0BB7989CF9E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C016E20E-3F44-4372-90DC-1B00DA8C07F8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>668DA4EF-DE20-47A9-8A11-38A1002E1C2A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Hause Lin</string>
+	<key>description</key>
+	<string>A workflow to open Obsidian vaults, daily note, and search for notes in vaults.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Obsidian</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemTextContent</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>os</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array>
+					<string>~/odrive/Google Drive/obsidian/notes</string>
+					<string>~/odrive/Google Drive/obsidian/people</string>
+					<string>~/odrive/Google Drive/obsidian/test vault one</string>
+					<string>~/odrive/Google Drive/obsidian/write</string>
+				</array>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Search for files</string>
+				<key>title</key>
+				<string>Obsidian search {query}</string>
+				<key>types</key>
+				<array/>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>3D9E86C3-15F0-4B5E-AC66-0BA4B3524F7C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ov</string>
+				<key>subtext</key>
+				<string>Available vaults: notes, journal, write, people, obsidian help</string>
+				<key>text</key>
+				<string>Open Obsidian {query} Vault</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>29B3A4DB-80CD-498F-A079-18F1CA7DD20C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>// NOTE electron bug (if app isn't already opened, it will always open the last opened vault.
+// https://discordapp.com/channels/686053708261228577/716028884885307432/755203478413902036
+
+// get vault name
+v="{query}";
+
+// construct uri
+uri = "obsidian://open?vault=" + encodeURIComponent(v);
+
+// get the current app to access the standard additions
+app = Application.currentApplication();
+app.includeStandardAdditions = true;
+
+// open
+app.openLocation(uri);
+console.log(uri);</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0796CFDE-8B84-4EAD-A82D-6558AF6C4D42</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>// absolute file path to file
+p="{query}";
+
+// construct uri
+uri = "obsidian://open?path=" + encodeURIComponent(p);
+
+// get the current app to access the standard additions
+app = Application.currentApplication();
+app.includeStandardAdditions = true;
+
+// open file in vault
+app.openLocation(uri);
+console.log(uri);</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>668DA4EF-DE20-47A9-8A11-38A1002E1C2A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>2</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemTextContent</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>or</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array>
+					<string>~/odrive/Google Drive/obsidian/notes</string>
+					<string>~/odrive/Google Drive/obsidian/people</string>
+					<string>~/odrive/Google Drive/obsidian/test vault one</string>
+					<string>~/odrive/Google Drive/obsidian/write</string>
+				</array>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Find matching files in last 3 days</string>
+				<key>title</key>
+				<string>Obsidian recent files {query}</string>
+				<key>types</key>
+				<array/>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>5ADBB309-EC74-453A-B7F5-9E34E2CDB7E3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"notes","arg":"notes","subtitle":""},{"title":"journal","arg":"journal","subtitle":""},{"title":"people","arg":"people","subtitle":""},{"title":"writing","arg":"write","subtitle":""},{"title":"help","arg":"obsidian help"}]</string>
+				<key>keyword</key>
+				<string>oo</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Open Obsidian {query} Vault</string>
+				<key>title</key>
+				<string>Open Obsidian vault</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>3583F53B-BF45-48ED-8D46-09218DF80005</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>1</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemTextContent</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>ot</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array>
+					<string>~/odrive/Google Drive/obsidian/notes</string>
+					<string>~/odrive/Google Drive/obsidian/people</string>
+					<string>~/odrive/Google Drive/obsidian/test vault one</string>
+					<string>~/odrive/Google Drive/obsidian/write</string>
+				</array>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Find today's files</string>
+				<key>title</key>
+				<string>Obsidian today's files {query}</string>
+				<key>types</key>
+				<array/>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>C016E20E-3F44-4372-90DC-1B00DA8C07F8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>od</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Obsidian Daily Note</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B768A804-C61E-4133-AB9C-74C6448BFC62</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>// This action only opens existing notes. It won't create a new daily note that doesn't exist yet—you'll get a file not found message instead; if so, create the daily note in Obsidian first.
+
+// step 1: specify daily note date format (e.g., 1st March 1990)
+// example 1: "yyyy-m-d"  if your date format looks like 1990-3-1
+// example 2: "yymmdd"    if your date format looks like 900301
+// example 3: "d_m_yy"   if your date format looks like 1_3_90
+
+// indicate your date format below by replacing "yyyy-mm-dd" with your format
+date_format = "yyyy-mm-dd"; 
+
+// step 2: specify vault name
+v = "notes";
+
+
+
+
+
+
+
+
+
+
+
+
+// don't need to edit the lines below
+date_format = date_format.toLowerCase();
+
+// determine no. of y, m, d needed
+n_y = date_format.split('y').length - 1;
+n_m = date_format.split('m').length - 1;
+n_d = date_format.split('d').length - 1;
+y_char = "y".repeat(n_y);
+m_char = "m".repeat(n_m);
+d_char = "d".repeat(n_d);
+
+// get today's date
+today = new Date();
+yyyy = today.getFullYear().toString();
+mm = (today.getMonth() + 1).toString();
+dd = today.getDate().toString();
+
+// format date according to user specification (e.g., yy, m, d)
+yyyy = yyyy.slice(4-n_y, 4);
+if (mm.length == 1) {mm = mm.padStart(2, '0').slice(2-n_m, 2)};
+if (dd.length == 1) {dd = dd.padStart(2, '0').slice(2-n_d, 2)};
+
+date_format = date_format.replace(y_char, yyyy);
+date_format = date_format.replace(m_char, mm);
+date_format = date_format.replace(d_char, dd);
+
+p = encodeURIComponent(v) + "&amp;file=" + date_format + ".md";
+uri = "obsidian://open?vault=" + p;
+
+// get the current app to access the standard additions
+app = Application.currentApplication();
+app.includeStandardAdditions = true;
+
+// open file in vault
+app.openLocation(uri);
+console.log(uri);</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3E2AE83C-BAFA-4EB9-ADCB-0BB7989CF9E9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>76C3031F-7B85-45C6-9D05-DF5802BBC167</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>A workflow to open Obsidian vaults, daily note, and search for notes in vaults. Tested in Obsidian 0.9.10.
+
+v0.1.4
+- Fix bug with daily note (od).
+
+v0.1.3
+- Now supports paths with special characters (thanks to @hjklapp).
+- Uses JXA actions/scripts instead of bash scripts (thanks to @hjklapp).
+
+v0.1.2
+- new keywords: oo
+
+v0.1.1
+- new keywords: ov, od, os, or, ot
+
+## Known bugs
+
+If the Obsidian app isn't already opened, this workflow will always open the last recently opened vault. This bug is a known issue with Electron apps on MacOS.</string>
+	<key>uidata</key>
+	<dict>
+		<key>0796CFDE-8B84-4EAD-A82D-6558AF6C4D42</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>110</integer>
+		</dict>
+		<key>29B3A4DB-80CD-498F-A079-18F1CA7DD20C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>70</integer>
+			<key>ypos</key>
+			<integer>35</integer>
+		</dict>
+		<key>3583F53B-BF45-48ED-8D46-09218DF80005</key>
+		<dict>
+			<key>xpos</key>
+			<integer>65</integer>
+			<key>ypos</key>
+			<integer>205</integer>
+		</dict>
+		<key>3D9E86C3-15F0-4B5E-AC66-0BA4B3524F7C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>495</integer>
+			<key>ypos</key>
+			<integer>35</integer>
+		</dict>
+		<key>3E2AE83C-BAFA-4EB9-ADCB-0BB7989CF9E9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>445</integer>
+			<key>ypos</key>
+			<integer>515</integer>
+		</dict>
+		<key>5ADBB309-EC74-453A-B7F5-9E34E2CDB7E3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>155</integer>
+		</dict>
+		<key>668DA4EF-DE20-47A9-8A11-38A1002E1C2A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>740</integer>
+			<key>ypos</key>
+			<integer>155</integer>
+		</dict>
+		<key>76C3031F-7B85-45C6-9D05-DF5802BBC167</key>
+		<dict>
+			<key>xpos</key>
+			<integer>255</integer>
+			<key>ypos</key>
+			<integer>580</integer>
+		</dict>
+		<key>B768A804-C61E-4133-AB9C-74C6448BFC62</key>
+		<dict>
+			<key>xpos</key>
+			<integer>255</integer>
+			<key>ypos</key>
+			<integer>445</integer>
+		</dict>
+		<key>C016E20E-3F44-4372-90DC-1B00DA8C07F8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>505</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.1.4</string>
+	<key>webaddress</key>
+	<string>https://github.com/hauselin/obsidian-alfred</string>
+</dict>
+</plist>
